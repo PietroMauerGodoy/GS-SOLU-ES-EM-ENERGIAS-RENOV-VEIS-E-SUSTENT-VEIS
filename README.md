@@ -145,7 +145,6 @@ print("====================================================\n")
 
 
 # BLOCO 8 — GRÁFICO (APENAS 1 DIA)
-# A FIAP recomenda gráficos limpos → usamos só 24 horas.
 
 
 df_1dia = df.iloc[:24]  # somente o primeiro dia
