@@ -1,4 +1,4 @@
-# ⚡ EnergySense – Simulação de Adoção de Energia Solar  
+### ⚡ Simulação de Adoção de Energia Solar  
 ### 🌱 Global Solution – Soluções em Energias Renováveis e Sustentáveis  
 ### 📚 Ciência da Computação – 2º Semestre / 2025
 
