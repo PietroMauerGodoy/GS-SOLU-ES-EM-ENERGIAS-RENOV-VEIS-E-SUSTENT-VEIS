@@ -1,150 +1,164 @@
-# 📘 EnergySense Data Analytics  
-### 🔍 Análise Inteligente de Consumo Energético para Ambientes Sustentáveis
+# ⚡ EnergySense – Simulação de Adoção de Energia Solar  
+### 🌱 Global Solution – Soluções em Energias Renováveis e Sustentáveis  
+### 📚 Ciência da Computação – 2º Semestre / 2025
 
 ---
 
-## 📌 1. Visão Geral
+## 👨‍💻 Integrantes
 
-O **EnergySense Data Analytics** é um projeto focado exclusivamente na **análise de dados de consumo energético**.  
-Seu objetivo é identificar padrões, desperdícios e oportunidades de economia em ambientes de trabalho, contribuindo para práticas mais eficientes e sustentáveis.
-
-Este projeto cumpre **100% da opção A — Análise de Dados** da Global Solution – Soluções em Energias Renováveis e Sustentáveis.
-
----
-
-## 🎯 2. Objetivos do Projeto
-
-- Analisar dados reais ou simulados de consumo energético  
-- Detectar picos, padrões e anomalias  
-- Identificar desperdícios e oportunidades de otimização  
-- Estimar economia potencial com ajustes operacionais  
-- Relacionar a análise ao futuro do trabalho sustentável e eficiente  
+| Nome Completo          | RM       |
+|------------------------|----------|
+| Patrick Mansour        | RM562970 |
+| Pietro Mauer           | RM563676 |
+| Samir Assad            | RM561562 |
 
 ---
 
-## 📂 3. Estrutura do Repositório
+## 📌 Descrição do Projeto
 
-📁 energy-sense-analytics/
-│
-├── README.md
-│
-├── dados/
-│ └── consumo_energetico.csv
-│
-├── notebooks/
-│ ├── 01_preprocessamento.ipynb
-│ ├── 02_analise_exploratoria.ipynb
-│ ├── 03_insights_recomendacoes.ipynb
-│ └── 04_projecoes_economia.ipynb
-│
-├── imagens/
-│ ├── grafico_consumo_horario.png
-│ ├── grafico_picos.png
-│ ├── heatmap_consumo.png
-│ └── dispersao_consumo.png
-│
-└── documentacao/
-└── relatorio_final.pdf
+Este projeto implementa uma **simulação do impacto da adoção de energia solar fotovoltaica** em um ambiente de trabalho, estimando:
 
-yaml
-Copiar código
+- Redução do consumo da rede elétrica  
+- Economia financeira mensal  
+- Redução de emissões de CO₂  
+- Autonomia energética  
+- Comparação entre cenário atual e cenário com energia renovável  
+
+A solução atende à **Opção C - Simulação de Uso de Energias Renováveis** da Global Solution.
 
 ---
 
-## 📊 4. Metodologia da Análise
+## 🎯 Objetivo
 
-### ✔ 4.1 Coleta e Tratamento dos Dados
-- Importação da base  
-- Padronização de colunas  
-- Conversão de datas e horários  
-- Remoção/tratamento de valores faltantes  
-- Cálculo de métricas derivadas (kWh/dia, kWh/hora, etc.)
+Demonstrar como a implementação de energia solar pode reduzir custos, tornar ambientes corporativos mais eficientes e contribuir para um futuro do trabalho mais sustentável e inteligente.
 
 ---
 
-### ✔ 4.2 Análise Exploratória (EDA)
-Inclui:
+## 🧪 Metodologia
 
-- Estatísticas descritivas  
-- Distribuição de consumo  
-- Gráficos de linha, barras e dispersão  
-- Identificação de horários de pico  
-- Heatmap de consumo (dia × hora)  
-- Detecção de padrões semanais  
+### **1. Simulação de Consumo**
+Foi gerado um conjunto de dados fictício representando 30 dias de consumo horário de energia em um escritório, com padrões realistas de pico e baixa demanda.
 
----
+### **2. Simulação de Geração Solar**
+Foi criada uma curva de geração solar baseada em um painel de 3 kW, com pico ao meio-dia e eficiência de 85%.
 
-### ✔ 4.3 Insights e Identificação de Desperdícios
+### **3. Cálculo dos Benefícios do Sistema Solar**
+A simulação estima:
 
-A análise permitiu evidenciar:
-
-- Consumo elevado fora do horário de expediente  
-- Picos inesperados em determinados dias  
-- Equipamentos ligados continuamente sem necessidade  
-- Diferenças de comportamento entre dias úteis e finais de semana  
-- Potenciais falhas operacionais ou desperdício energético  
+- Quantidade de energia suprida pela geração solar  
+- Redução da dependência da rede elétrica  
+- Economia em reais  
+- Emissão evitada de CO₂  
 
 ---
 
-### ✔ 4.4 Projeções e Economia Estimada
+## 🔧 Tecnologias Utilizadas
 
-Com base nos insights, foram calculadas simulações de economia:
-
-- Economia estimada mensal e anual (kWh)  
-- Economia financeira anual (R$)  
-- Redução estimada de emissões de CO₂  
-- Comparativo cenário atual × cenário otimizado  
-
----
-
-## 🌱 5. Conexão com o Futuro do Trabalho
-
-A análise de dados aplicada a ambientes de trabalho possibilita:
-
-- Decisões baseadas em dados reais  
-- Ambientes mais inteligentes e automatizados  
-- Redução de custos operacionais  
-- Sustentabilidade integrada à rotina  
-- Eficiência energética e responsabilidade ambiental  
-- Adequação a metas ESG e ODS  
-
----
-
-## 📽️ 6. Vídeo Explicativo
-
-O vídeo (até 3 minutos) apresenta:
-
-1. O problema  
-2. A base de dados  
-3. Como foi feita a análise  
-4. Principais resultados  
-5. Economia estimada  
-6. Conclusão  
-
-🔗 **Link do vídeo:** _a ser adicionado_
-
----
-
-## 📚 7. Fontes e Referências
-
-- ANEEL – Agência Nacional de Energia Elétrica  
-- IEA – International Energy Agency  
-- EPE – Empresa de Pesquisa Energética  
-- ENCE – Programa Nacional de Conservação de Energia  
-- ONU – Objetivo de Desenvolvimento Sustentável 7: Energia Limpa e Acessível  
-
----
-
-## 🧪 8. Tecnologias Utilizadas
-
-- Python  
+- Python 3  
 - Pandas  
 - NumPy  
 - Matplotlib  
-- Jupyter Notebook  
 
 ---
 
-## 🙌 9. Autor
+## 🧠 Código Principal da Simulação
 
-Projeto desenvolvido para a disciplina **Global Solution — Ciências da Computação — 2° semestre/202
+```python
+# BLOCO 1 — IMPORTAÇÃO DAS BIBLIOTECAS
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# BLOCO 2 — CRIAÇÃO DAS DATAS DA SIMULAÇÃO
+# 30 dias com intervalo de 1 hora (720 pontos) 
+
+horas = pd.date_range("2025-01-01", periods=24*30, freq="h")
+
+
+# BLOCO 3 — SIMULAÇÃO DO CONSUMO ENERGÉTICO
+# Consumo típico de escritório: sobe no dia,
+# cai de madrugada. Com pequena variação aleatória.
+
+
+consumo_base = 2.2 + 1.2 * np.sin(2 * np.pi * (horas.hour - 6) / 24)
+consumo = consumo_base + np.random.normal(0, 0.15, len(horas))
+
+
+
+# BLOCO 4 — SIMULAÇÃO DE GERAÇÃO SOLAR
+# Geração só ocorre durante o dia e faz pico ao meio-dia.
+
+
+geracao_solar_horaria = np.maximum(0, 3.0 * np.sin(np.pi * (horas.hour - 6) / 12))
+geracao_solar = geracao_solar_horaria
+
+
+
+# BLOCO 5 — CRIAÇÃO DO DATAFRAME
+# Agrupamos todas as séries simuladas em uma tabela.
+
+
+df = pd.DataFrame({
+    "data": horas,
+    "consumo": consumo,
+    "solar": geracao_solar
+})
+
+
+# BLOCO 6 — CÁLCULOS DE ENERGIA SOLAR
+# solar_utilizada = min(consumo, solar)
+# rede = consumo - solar_utilizada
+
+
+df["solar_utilizada"] = df[["consumo", "solar"]].min(axis=1)
+df["rede"] = df["consumo"] - df["solar_utilizada"]
+
+
+
+# BLOCO 7 — MÉTRICAS GERAIS
+# Calcula total consumido, autonomia, economia,
+
+
+consumo_total = df["consumo"].sum()
+solar_utilizada = df["solar_utilizada"].sum()
+consumo_rede = df["rede"].sum()
+
+autonomia = (solar_utilizada / consumo_total) * 100
+
+# Economia estimada (tarifa de R$ 0,80 por kWh)
+economia = solar_utilizada * 0.80
+
+# Redução de CO₂ (0.085 kg por kWh)
+reducao_co2 = solar_utilizada * 0.085
+
+print("\n==== RESULTADOS DA SIMULAÇÃO DE ENERGIA SOLAR ====")
+print(f"Consumo total...................: {consumo_total:.2f} kWh")
+print(f"Geração solar utilizada.........: {solar_utilizada:.2f} kWh")
+print(f"Consumo da rede após solar.....: {consumo_rede:.2f} kWh")
+print(f"Autonomia energética............: {autonomia:.1f}%")
+print(f"Economia estimada...............: R$ {economia:.2f}")
+print(f"Redução de CO₂..................: {reducao_co2:.2f} kg")
+print("====================================================\n")
+
+
+
+
+# BLOCO 8 — GRÁFICO (APENAS 1 DIA)
+# A FIAP recomenda gráficos limpos → usamos só 24 horas.
+
+
+df_1dia = df.iloc[:24]  # somente o primeiro dia
+
+plt.figure(figsize=(12,5))
+plt.plot(df_1dia["data"], df_1dia["consumo"], label="Consumo", linewidth=2)
+plt.plot(df_1dia["data"], df_1dia["solar"], label="Geração Solar", linewidth=2)
+
+plt.xlabel("Hora do Dia")
+plt.ylabel("kWh")
+plt.title("Simulação: Consumo vs Geração Solar (1 Dia)")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
